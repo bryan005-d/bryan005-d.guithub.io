@@ -1,0 +1,126 @@
+*{
+    background-color: #ffffff;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+header .titulo{
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    font-size: 2.5em;
+}
+header .subtitulo{
+    position: absolute;
+    top: 110px;
+    left: 440px;
+    font-size: 1.5em;
+}
+.cuadroizq{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+.cuadroizq .titulo{
+    position: absolute;
+    top: 250px;
+    left: 8px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+}
+.cuadroizq .subtitulo{
+    position: absolute;
+    font-size: 1em;
+    top: 280px;
+    left: 8px;
+}
+.cuadroizq .tags a{
+    text-decoration: none;
+    position: absolute;
+    color: #000000;
+    display: flex;
+    width: 220px;
+    height: 18px;
+    top: 330px;
+    left: 8px;
+}
+.cuadroizq .verpry{
+    text-decoration: none;
+    position: absolute;
+    top: 360px;
+    left: 8px;
+}
+.cuadroizq .img .imgfreelance{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 230px;
+    border-radius: 20px;
+    background-color: #000000;
+}
+.cuadroder{
+    position: absolute;
+    top: 150px;
+    right: 130px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+.cuadroder .titulo{
+    position: absolute;
+    top: 250px;
+    left: 8px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+}
+.cuadroder .subtitulo{
+    position: absolute;
+    font-size: 1em;
+    top: 280px;
+    left: 8px;
+}
+.cuadroder .tags a{
+    text-decoration: none;
+    position: absolute;
+    color: #000000;
+    display: flex;
+    width: 220px;
+    height: 18px;
+    top: 330px;
+    left: 8px;
+}
+.cuadroder .verpry{
+    text-decoration: none;
+    position: absolute;
+    top: 360px;
+    left: 8px;
+}
+.cuadroder .img .imgfreelance{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 230px;
+    border-radius: 20px;
+    background-color: #000000;
+}
+.vermas{
+    text-decoration: none;
+    position: absolute;
+    top: 550px;
+    left: 48%;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+}
