@@ -61,8 +61,10 @@ header {
     transform-origin: left;
     transform: scaleX(1);
 }
-.navigation .btnlogin-popup {
+.btninicio {
     position: relative;
+    justify-content: center;
+    text-align: center;
     top: 1px;
     right: 60px;
     width: 130px;
@@ -76,12 +78,14 @@ header {
     color: #000000;
     transition: .5s;
 }
-.navigation .btnlogin-popup:hover {
+.btninicio :hover {
     background: #1D1E1E;
     color: #ffffff;
 }
-.navigation .btnregister {
+.btnfolder {
     position: absolute;
+    justify-content: center;
+    text-align: center;
     top: 32px;
     right: 20px;
     width: 130px;
@@ -95,7 +99,7 @@ header {
     color: #000000;
     transition: .5s;
 }
-.navigation .btnregister:hover {
+.btnfolder :hover {
     background: #1D1E1E;
     color: #ffffff;
 }
