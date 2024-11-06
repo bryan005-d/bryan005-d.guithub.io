@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root"; // Cambia esto por tu nombre de usuario MySQL
 $password = ""; // Deja vacío si no has establecido una contraseña
-$dbname = "your_database_name"; // Cambia esto por el nombre de tu base de datos
+$dbname = "freelance_portafolio"; // Cambia esto por el nombre de tu base de datos
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
