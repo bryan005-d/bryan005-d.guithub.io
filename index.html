@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>folder</title>
+    <title>VISION CREATIVA</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon-person.svg" type="image/x-icon">
-    <ion-icon name="person-circle-outline"></ion-icon>
 </head>
 <body>
-    <header>
-        <div class="logo">vision creativa</div>
-        <nav class="navegador">
-            <a href="index.html" class="boton-inicio" id="inicio">inicio</a>
-            <a href="folder.html" class="boton-folder" id="folder">portafolio</a>
-            <a href="freelance.html" class="boton-servicio" id="servicio">servicio</a>
-        </nav>
-        <a href="login.php" class="boton-login">registrate</a>
-        <button class="login">inicio de sesion</button>
-        <div class="nosotros">
-            <a href="#" class="boton-acercade">Acerca de</a>
-            <ul class="submenu">
-                <a href="nosotros.html" class="boton-nosotros">Nosotros</a>
-                <a href="contactos.html" class="boton-contactos">Nuestros contactos</a>
+    <!-- Barra superior -->
+    <header class="top-bar">
+        <div class="logo">VISION CREATIVA</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="servicio.html">Servicios</a></li>
+                <li><a href="#">Acerca de nosotros</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
-    <div class="titulo">¡BIENVENIDOS A <br> NUESTRO SITIO WEB!</div>
-    <div class="subtitulo">Aqui encontraras los mejores portafolios en linea</div>
-    <a href="freelance.html" class="botton-explorar">explorar</a>
-    <a href="login.php" class="boton-registrarse">resgistrarse</a>
+
+    <!-- Contenido principal -->
+    <main>
+        <section class="welcome-section">
+            <div class="welcome-text">
+                <h1>¡BIENVENIDO A NUESTRO SITIO WEB!</h1>
+                <p>Aquí encontrarás los mejores portafolios freelance en línea.</p>
+                <div class="buttons">
+                    <a href="freelance.html" class="explore">Explorar</a>
+                    <a href="login.php" class="register">Registrarse</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Barra inferior -->
+    <footer class="bottom-bar">
+        <p>&copy; VISIÓN CREATIVA - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>

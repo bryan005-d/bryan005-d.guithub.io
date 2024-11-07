@@ -47,7 +47,6 @@ $conn->close();
     $count = mysqli_num_rows($result);
 
     if($count == 1) {
-	
          // session_register("myusername");
         $_SESSION['login_user'] = $myusername;
         header("location: welcome.php");
@@ -57,9 +56,6 @@ $conn->close();
     }
 ?>
 
-<¿php
-
-?>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -124,7 +120,7 @@ $conn->close();
                         <span class="icono">
                             <ion-icon name="person-circle-outline"></ion-icon>
                         </span>
-                        <input type="text" name="username" required>
+                        <input type="text" name="first_name" required>
                         <label>nombre del usuario</label>
                     </div>
                     <div class="input-box">
